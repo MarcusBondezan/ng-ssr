@@ -22,6 +22,6 @@ export class WelcomeService {
         const requestOptions: Object = {
             responseType: 'text'
         }
-        return this.http.get<any>('http://localhost:3000', requestOptions);
+        return this.http.get<any>('http://back:3000', requestOptions);
     }
 }
